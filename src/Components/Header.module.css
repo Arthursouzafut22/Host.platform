@@ -1,0 +1,102 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+  max-width: 100%;
+}
+
+.logo {
+  margin-right: 10px;
+  max-width: 50px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.nav div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav :first-child {
+  gap: 28px;
+}
+
+.escrevase {
+  font-size: clamp(14px, 4vw, 16px);
+  background-color: #80e038;
+  color: #0b6112;
+  border-radius: 8px;
+  padding: 3px 10px;
+  border-bottom: 4px solid #35af00;
+}
+
+.escrevase:active {
+  transform: translateY(0.7em);
+}
+
+.escrevase:hover {
+  opacity: 0.9;
+  transition: 0.3s;
+}
+
+.mobileButton {
+  background-color: #80e038;
+  border-radius: 5px;
+  height: 40px;
+  width: 40px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.mobileButton::after {
+  content: "";
+  display: block;
+  width: 1.2rem;
+  height: 2px;
+  border-radius: 2px;
+  background-color: currentColor;
+  box-shadow: 0 6px currentColor, 0 -6px currentColor;
+  transition: 0.3s;
+}
+
+.mobileButtonActive::after {
+  transform: rotate(90deg);
+  width: 4px;
+  height: 4px;
+  box-shadow: 0 8px currentColor, 0 -8px currentColor;
+}
+
+.navMobile {
+  position: fixed;
+  top: 90px;
+  right: 0px;
+  padding: 15px;
+  background-color: #0d1217;
+  border-radius: 5px;
+  border: 2px solid #4a6382;
+  transform: translateX(10px);
+  opacity: 0;
+}
+
+.navMobile a:not(.escrevase) {
+  margin-bottom: 10px;
+}
+
+.navMobileActive {
+  transition: 0.3s;
+  transform: initial;
+  opacity: 1;
+  z-index: 100;
+}
