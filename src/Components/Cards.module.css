@@ -1,0 +1,45 @@
+.cards {
+  flex: 1;
+  max-width: 305px;
+  padding: 15px;
+  height: 500px;
+  border: 2px solid #212d3b;
+}
+
+.cards h1 {
+  font-size: 22px;
+}
+
+.cards p {
+  font-size: 14px;
+  color: #9eb0c7;
+}
+
+.cards:nth-child(2) {
+  border: 2px solid #80e038;
+}
+
+.cards:nth-child(2) button {
+  background-color: #80e038;
+  color: #0b6112;
+  border: 2px solid #80e038;
+  border-bottom: 4px solid #35af00;
+}
+
+.price {
+  font-size: 36px !important;
+  font-weight: 700;
+  color: #dfe5ec !important;
+  margin: 0;
+}
+
+.cards ul {
+  padding: 0;
+  text-align: left;
+}
+
+.cards ul > li {
+  font-size: 14px;
+  color: #9eb0c7;
+  margin-bottom: 10px;
+}

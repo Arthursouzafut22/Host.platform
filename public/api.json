@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "type": "Analista",
+        "infop": "Para trabalho de análise de missão crítica",
+        "precos": [
+            {
+                "id": "mes",
+                "plano": 129
+            },
+            {
+                "id": "ano",
+                "plano": 103.2,
+                "guarda": "$5.988 $4.790/yr - Guardar $1.198"
+            }
+        ],
+        "faturados": "Ou faturado anualmente $103/mês",
+        "info": [
+            "500k créditos de chamadas/mês",
+            "500 limite de taxas/minuto",
+            "60+ parâmetros de dados de mercado",
+            "Pontos finais de dados exclusivos",
+            "10 anos de dados históricos",
+            "Suporte prioritário por e-mail"
+        ]
+    },
+    {
+        "id": 2,
+        "type": "Lite",
+        "infop": "Perfeito para sites pessoais",
+        "precos": [
+            {
+                "id": "mes",
+                "plano": 499
+            },
+            {
+                "id": "ano",
+                "plano": 399.2,
+                "guarda": "$5.988 $4.790/yr - Guardar $1.198"
+            }
+        ],
+        "faturados": "Ou faturado anualmente $399/mês",
+        "info": [
+            "2m créditos de chamadas/mês",
+            "100 GB de armazenamento SSD",
+            "Migração de site grátis e automática",
+            "Servidores de nomes protegidos pela Cloudflare",
+            "10 anos de dados históricos",
+            "Bancos de dados ilimitados"
+        ]
+    },
+    {
+        "id": 3,
+        "type": "Pro",
+        "infop": "Escale os seus projetos como um profissional",
+        "precos": [
+            {
+                "id": "mes",
+                "plano": 999
+            },
+            {
+                "id": "ano",
+                "plano": 799.2,
+                "guarda": "$11.988 $9.590/yr - Guardar $2.398"
+            }
+        ],
+        "faturados": "Ou faturado anualmente $799/mês",
+        "info": [
+            "5m créditos de chamadas/mês",
+            "1.000 limite de taxas/minuto",
+            "Endereço de IP Dedicado",
+            "Servidores de nomes protegidos pela Cloudflare",
+            "Painel de controle poderoso",
+            "Plano de empresa - apenas parâmetros"
+        ]
+    },
+    {
+        "id": 4,
+        "type": "Empresa",
+        "infop": "Serviço de nível empresarial personalizado com base nas suas necessidades",
+        "precos": [
+            {
+                "id": "mes",
+                "plano": 1200
+            },
+            {
+                "id": "ano",
+                "plano": 1800,
+                "guarda": "$13.988 $9.590/yr - Guardar $1.800"
+            }
+        ],
+        "faturados": "Ou faturado anualmente $1200/mês",
+        "info": [
+            "Créditos de chamadas personalizadas",
+            "Gerenciador de Cache",
+            "Endereço de IP Dedicado",
+            "Proteção avançada contra DDoS",
+            "Painel de controle poderoso",
+            "Largura de banda ilimitada"
+        ]
+    }
+]
