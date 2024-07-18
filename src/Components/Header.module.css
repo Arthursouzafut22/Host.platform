@@ -18,6 +18,10 @@
   flex: 1;
 }
 
+.nav a:global(.active) {
+  color: #80e038;
+}
+
 .nav div {
   display: flex;
   align-items: center;

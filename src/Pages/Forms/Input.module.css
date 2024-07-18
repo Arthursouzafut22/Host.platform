@@ -1,0 +1,89 @@
+.input {
+  font-size: 16px;
+  padding: 13px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  background-color: #0d1217;
+  color: #9eb0c7;
+  outline: none;
+  border: 2px solid #4a6382;
+  transition: 0.5s;
+  max-width: 100%;
+}
+
+.input:focus {
+  border-color: #80e038;
+}
+
+.container {
+  display: inline-block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  margin-top: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  user-select: none;
+}
+
+
+
+.checkbox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: #eee;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.checkbox:checked ~ .checkmark {
+  background-color: #80e038;
+}
+
+.checkbox:checked ~ .checkmark:after {
+  display: block;
+}
+
+@keyframes checkAnim {
+  0% {
+    height: 0;
+  }
+
+  100% {
+    height: 10px;
+  }
+}
+
+.checkbox:checked ~ .checkmark:after {
+  animation: checkAnim 0.2s forwards;
+}
+
+.error {
+  color: red;
+  margin: 0;
+}

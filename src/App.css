@@ -33,3 +33,10 @@ img {
   display: block;
   max-width: 100%;
 }
+
+input[type="checkbox"]:checked {
+  cursor: pointer;
+  padding: 5px;
+  background-color: #80e038;
+
+}

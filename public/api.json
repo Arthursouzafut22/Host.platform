@@ -6,11 +6,11 @@
         "precos": [
             {
                 "id": "mes",
-                "plano": 129
+                "planom": "$129/mo"
             },
             {
                 "id": "ano",
-                "plano": 103.2,
+                "planoa": "$103.2/mo",
                 "guarda": "$5.988 $4.790/yr - Guardar $1.198"
             }
         ],
@@ -31,11 +31,11 @@
         "precos": [
             {
                 "id": "mes",
-                "plano": 499
+                "planom": "$499/mo"
             },
             {
                 "id": "ano",
-                "plano": 399.2,
+                "planoa": "$399.2/mo",
                 "guarda": "$5.988 $4.790/yr - Guardar $1.198"
             }
         ],
@@ -56,11 +56,11 @@
         "precos": [
             {
                 "id": "mes",
-                "plano": 999
+                "planom": "$999/mo"
             },
             {
                 "id": "ano",
-                "plano": 799.2,
+                "planoa": "$799.2/mo",
                 "guarda": "$11.988 $9.590/yr - Guardar $2.398"
             }
         ],
@@ -81,11 +81,11 @@
         "precos": [
             {
                 "id": "mes",
-                "plano": 1200
+                "planom": "$1200/mo"
             },
             {
                 "id": "ano",
-                "plano": 1800,
+                "planoa": "$1800/mo",
                 "guarda": "$13.988 $9.590/yr - Guardar $1.800"
             }
         ],

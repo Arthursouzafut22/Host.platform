@@ -35,14 +35,7 @@ const Home = () => {
         seja, risco zero para você.
       </p>
       {loading && <Loader />}
-      <div className={styles.container}>
-        {dados.map((item, index) => (
-          <Cards
-            key={index}
-            valor={item}
-          />
-        ))}
-      </div>
+        <Cards valor={dados}/>
     </section>
   );
 };

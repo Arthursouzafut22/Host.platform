@@ -17,3 +17,7 @@
 .button:hover {
     background-color: #212D3B;
 }
+
+.button:active {
+  transform: translateY(0.7em);
+}

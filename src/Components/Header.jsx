@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 import UseMobile from "../Hooks/UseMobile";
 import { useLocation } from "react-router-dom";
 
+
 const Header = () => {
   const mobile = UseMobile("(max-width:700px)");
   const [mobileMenu, setMobileMenu] = React.useState(false);
@@ -52,3 +53,4 @@ const Header = () => {
 };
 
 export default Header;
+
