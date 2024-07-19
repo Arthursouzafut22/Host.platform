@@ -19,7 +19,7 @@
 }
 
 .nav a:global(.active) {
-  color: #80e038;
+  color: #0b6112;
 }
 
 .nav div {
@@ -83,15 +83,18 @@
 }
 
 .navMobile {
-  position: fixed;
+  display: block;
+  position: absolute;
   top: 90px;
-  right: 0px;
+  right: 1px;
   padding: 15px;
   background-color: #0d1217;
   border-radius: 5px;
   border: 2px solid #4a6382;
-  transform: translateX(10px);
+  animation: formFade 1s ease-in-out;
+  transform: scale(0.5);
   opacity: 0;
+  pointer-events: none;
 }
 
 .navMobile a:not(.escrevase) {
@@ -99,8 +102,9 @@
 }
 
 .navMobileActive {
-  transition: 0.3s;
+  transition: 0.3s ease-in-out;
   transform: initial;
   opacity: 1;
+  pointer-events: initial;
   z-index: 100;
 }

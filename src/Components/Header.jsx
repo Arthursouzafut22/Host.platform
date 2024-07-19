@@ -5,7 +5,6 @@ import { NavLink } from "react-router-dom";
 import UseMobile from "../Hooks/UseMobile";
 import { useLocation } from "react-router-dom";
 
-
 const Header = () => {
   const mobile = UseMobile("(max-width:700px)");
   const [mobileMenu, setMobileMenu] = React.useState(false);
@@ -39,7 +38,7 @@ const Header = () => {
           <NavLink to="/" end>
             Home
           </NavLink>
-          <NavLink to="/planos">Planos</NavLink>
+          <NavLink to="/sobre">Sobre</NavLink>
         </div>
         <div>
           <NavLink to="/login">Login</NavLink>
@@ -53,4 +52,3 @@ const Header = () => {
 };
 
 export default Header;
-
