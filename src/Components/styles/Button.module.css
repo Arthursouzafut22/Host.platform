@@ -1,12 +1,12 @@
 .button {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 600;
   display: block;
   background-color: #1B232D;
   color: #DFE5EC;
   margin: 0 auto;
-  padding: 14px 24px;
-  border-radius: 8px;
+  padding: 0.875rem 1.5rem;
+  border-radius: 0.5rem;
   border: 2px solid #4A6382;
   border-bottom: 4px solid #4A6382;
   width: 100%;

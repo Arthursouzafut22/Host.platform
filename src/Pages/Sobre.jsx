@@ -14,11 +14,11 @@ const Sobre = () => {
             <li>
               <FaSave
                 style={{
-                  fontSize: "30px",
+                  fontSize: "2rem",
                   color: "#80e038",
                   background: "#19271B",
-                  padding: "7px",
-                  borderRadius: "5px",
+                  padding: "0.5rem",
+                  borderRadius: "0.3125rem",
                 }}
               />
               Configuração única. Sincronização em todos os dispositivos.
@@ -26,11 +26,11 @@ const Sobre = () => {
             <li>
               <FaBell
                 style={{
-                  fontSize: "30px",
+                  fontSize: "2rem",
                   color: "#80e038",
                   background: "#19271B",
-                  padding: "7px",
-                  borderRadius: "5px",
+                  padding: "0.5rem",
+                  borderRadius: "0.3125rem",
                 }}
               />
               Receba alertas instantâneos sobre moedas em sua carteira.
@@ -38,11 +38,11 @@ const Sobre = () => {
             <li>
               <FaBlogger
                 style={{
-                  fontSize: "30px",
+                  fontSize: "2rem",
                   color: "#80e038",
                   background: "#19271B",
-                  padding: "7px",
-                  borderRadius: "5px",
+                  padding: "0.5rem",
+                  borderRadius: "0.3125rem",
                 }}
               />
               Mantenha-se atualizado com widgets sobre criptomoedas.

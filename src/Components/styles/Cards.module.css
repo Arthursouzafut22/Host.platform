@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 1.5rem;
   margin-top: 30px;
 }
 
@@ -26,19 +26,19 @@
 .cards {
   flex: 1;
   max-width: 305px;
-  padding: 15px;
+  padding: 0.9375rem;
   height: 500px;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   border: 2px solid #212d3b;
   animation: animeCard 0.6s ease-in-out;
 }
 
 .cards h1 {
-  font-size: 22px;
+  font-size: 1.25rem;
 }
 
 .cards p {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #9eb0c7;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .cards:nth-child(2)::after {
-  font-size: 14px;
+  font-size: 0.875rem;
   text-align: center;
   content: "Recomendado";
   position: absolute;
@@ -63,15 +63,15 @@
   right: 31%;
   display: block;
   width: 120px;
-  padding: 4px 0px;
-  border-radius: 8px;
+  padding: 0.25rem 0rem;
+  border-radius: 0.5rem;
   color: #0b6112;
   background-color: #80e038;
   z-index: 200;
 }
 
 .price {
-  font-size: 36px !important;
+  font-size: 2.25rem !important;
   font-weight: 700;
   color: #dfe5ec !important;
   margin: 0;
@@ -83,7 +83,7 @@
 }
 
 .cards ul > li {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #9eb0c7;
   margin-bottom: 10px;
 }

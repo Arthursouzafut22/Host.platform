@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Toggle.module.css";
+import styles from "./styles/Toggle.module.css";
 
 const ToggleSwitch = ({ onData }) => {
   const [valor, setValor] = React.useState("mes");

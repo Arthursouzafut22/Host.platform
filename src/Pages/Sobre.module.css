@@ -1,6 +1,6 @@
 .section {
   margin-top: 25px;
-  padding: 15px 10px;
+  padding: 0.9375rem 0.625rem;
 }
 
 .container {
@@ -34,7 +34,7 @@
   font-size: clamp(0.875rem, 4vw, 1rem);
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 0.5rem;
   color: #9eb0c7;
   line-height: 1.1;
   margin-bottom: 12px;

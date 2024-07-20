@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Header.module.css";
+import styles from "./styles/Header.module.css"
 import Logo from "../Assets/logoo.png";
 import { NavLink } from "react-router-dom";
 import UseMobile from "../Hooks/UseMobile";
@@ -43,7 +43,7 @@ const Header = () => {
         <div>
           <NavLink to="/login">Login</NavLink>
           <NavLink className={styles.escrevase} to="/logincriar">
-            Escreva-se
+            Criar conta
           </NavLink>
         </div>
       </nav>

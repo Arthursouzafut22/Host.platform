@@ -1,0 +1,24 @@
+.footer {
+  padding: 0.9375rem 0.625rem;
+  margin-top: 60px;
+}
+
+.footer p {
+  font-size: 0.875rem;
+  color: #9eb0c7;
+}
+
+.lista {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 65px;
+}
+
+.lista li img {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+}
